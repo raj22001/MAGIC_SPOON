@@ -1,0 +1,272 @@
+#product-nutrients{
+    position: relative;
+    padding: 75px 0;
+    text-align: center;
+    z-index: 1;
+    color: #3f0791;
+}
+
+.bg-baby-blue {
+    background: #bfefff;
+}
+
+.w-1{
+    max-width: 900px;
+}
+
+.width{
+    position: relative;
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+#block-product-nutrients{
+    position: relative;
+    min-height: 400px;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.nutrient-group[data-count="0"]{
+    left:-5%;
+}
+
+.nutrient-group{
+    position: absolute;
+    top: 28%;
+}
+
+.nutrient-group[data-count="3"]{
+    right:5%;
+}
+
+.nutrient{
+    width: 200px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.nutrient h3{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.nutrient p{
+    height: 44px;
+}
+
+p{
+    font: 16px/1.4em Mabry,Helvetica,sans-serif;
+}
+
+h3{
+    margin: 0;
+    font: 500 28px/1.25em Mabry,Helvetica,sans-serif;
+}
+
+#product-nutrients .badge {
+    right: 5%;
+    bottom: 0;
+    transform: translateY(50%);
+}
+
+.badge{
+    position: absolute;
+    width: 170px;
+}
+
+.rotate-svg {
+    animation: rotate 5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #nutrients-flashes span:nth-of-type(1) {
+    top: 20%;
+    left: 2%;
+    color: #3f0791;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+    z-index: 80;
+}
+
+#nutrients-flashes span:nth-of-type(2) {
+    top: -5%;
+    left: 25%;
+}
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+#nutrients-flashes span:nth-of-type(3) {
+    top: 10%;
+    left: 70%;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+#nutrients-flashes span:nth-of-type(4) {
+    top: 18%;
+    left: 105%;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+#nutrients-flashes span:nth-of-type(5) {
+    top: 84%;
+    left: 25%;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+#nutrients-flashes span:nth-of-type(6) {
+    top: 88%;
+    left: 28%;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+#nutrients-flashes span:nth-of-type(7) {
+    top: 88%;
+    left: 70%;
+}
+
+#nutrients-flashes span {
+    position: absolute;
+    width: 20px;
+}
+
+@media screen and (max-width:898px) {
+    #product-nutrients{
+        width: 100%;
+        height: 895px;
+        background-color:#bfefff;
+        position: relative;
+        padding: 75px 0;
+        text-align: center;
+        z-index: 1;
+        color: #3f0791;
+    }
+    #product-nutrients .badge {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+    #product-nutrients{
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        background: #bfefff;
+        padding: 0 0 50px;
+    }
+
+    .w-1{
+        max-width: 900px;
+    }
+    .width{
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    #block-product-nutrients{
+        position: relative;
+        min-height: 400px;
+    }
+
+    #block-product-nutrients img {
+        width: 100%;
+        margin: 0px auto 0;
+    }
+
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+    }
+
+    .nutrient-group{
+        position: relative;
+        display:inline-block;
+        width: 40%;
+        top: auto;
+        left: auto !important;
+        right: auto !important;
+        vertical-align: top;
+        margin: 0 0 60px;
+        
+    }
+
+    .nutrient{
+        width: 200px;
+        margin:  0 auto 35px;
+        text-align: center;
+    }
+
+    .nutrient h3{
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .nutrient p{
+        height: 44px;
+    }
+    
+    p{
+        font: 16px ;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 600px) {
+    .nutrient-group .nutrient {
+      width: 96%;
+      margin: 0 auto 30px;
+    }
+
+    .nutrient-group{
+        margin-bottom: 0;
+    }
+}
+

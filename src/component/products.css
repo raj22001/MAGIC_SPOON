@@ -1,0 +1,130 @@
+#product-us{
+    position: relative;
+    padding: 70px 0 100px;
+    text-align: center;
+}
+
+.bg-lavender{
+    background: #dad9ff;
+}
+
+.product-w-1{
+    max-width: 900px;
+}
+
+#product-us #us-vs-them-banner{
+    position:absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#product-us #us-vs-them-banner g{
+    fill: none;
+    stroke: #3f0791;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+}
+
+
+
+#us-vs-them-banner h1{
+    rotate: 270deg;
+}
+
+.product-width{
+    position: relative;
+    width:90%;
+    margin: auto;
+}
+
+.product-width h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    font: 500 28px ;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.product-data-screenreader{
+    border: 0;
+    clip: rect(0,0,0,0); 
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1;
+    clip-path: inset(50%);
+    word-wrap: normal !important;
+}
+
+#product-us p {
+    margin: 20px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-weight: 700;
+    font-size: 10px;
+    color: #3f0791;
+}
+
+.p-data{
+    line-height: 1em;
+}
+
+p{
+    font: 16px ;
+}
+
+
+@media screen and (max-width:900px) {
+    #product-us{
+        padding: 150px 0 60px;
+    }
+
+    #product-us{
+        position: relative;
+        padding: 70px 0 100px;
+    }
+
+    product-w-1 {
+        max-width: 900px;
+    }
+
+    .product-width {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+    #product-us #us-vs-them-banner {
+        transform: rotate(90deg) translate(100%,-88.5%);
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+        height: 100vw;
+    }
+
+    #product-us h2{
+        max-width: 270px;
+        margin: 0 auto 40px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+}

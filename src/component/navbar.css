@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.nav-container{
+    width:full;
+    height:50px;
+}
+
+.nav-container h3{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+  .gradient-banner {
+    background: linear-gradient(45deg, #e30ba6, #5b00ed);
+    background-size: 400% 400%;
+    animation: gradientbanner 15s ease infinite;
+  }
+
+  @keyframes gradientbanner {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
